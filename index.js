@@ -17,12 +17,15 @@ goLight.classList.add("go");
 
   stopButton.addEventListener("click", function(){
     stopLight.classList.toggle("stop");
+    console.log("Entered " + stopButton.innerText + " button");
   });
   slowButton.addEventListener("click", function(){
     slowLight.classList.toggle("slow");
+    console.log("Entered " + slowButton.innerText + " button");
   });
   goButton.addEventListener("click", function(){
     goLight.classList.toggle("go");
+    console.log("Entered " + goButton.innerText + " button");
   });
 
 })();
